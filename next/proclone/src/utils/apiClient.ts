@@ -8,7 +8,7 @@ interface ApiResponse {
   error?: unknown;
 }
 
-export const BASE_URL = "http://localhost:3001";
+export const BASE_URL = "https://pro-clone-ki8g.vercel.app";
 
 export async function apiClient<T>(
   path: string,
